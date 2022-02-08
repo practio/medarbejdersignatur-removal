@@ -21,7 +21,7 @@ let options = new chrome.Options();
     //Store the ID of the original window
     const originalWindow = await driver.getWindowHandle();
     await driver.wait(until.titleIs('Administrér medarbejdere'), 100000);
-    await timeout(40000)
+    await timeout(120000)
 
     const table = await driver.findElement(By.id('adminBruger'));
     const tableBody = await table.findElement(By.css('tbody'));
