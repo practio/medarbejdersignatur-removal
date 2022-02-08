@@ -3,6 +3,10 @@
 ## Requirements
 
 - chromedriver in the root folder (may be different depending on your Chrome version or your OS)
+  - Find your current chrome version (99.x, 98.x, 97.x)
+  - Download your chromedriver based on the chrome version from over here https://chromedriver.chromium.org/downloads
+  - Unzip the folder you downloaded
+  - Put the chromedriver in the root folder on the current project
 - emails.json with all the employees' emails in the root folder with the following structure: `["test@practio.com", "test1@practio.com]`
 
 ## Steps to execute
