@@ -7,8 +7,8 @@
 
 ## Steps to execute
 
-- `npm ci`
-- node index.js
+- Run `npm ci`
+- Run `node index.js`
 - A browser should open
 - Login to your medarbejdesignatur login
 - Go to Manage employees (You have 60 seconds until the script starts)
